@@ -12,6 +12,7 @@
 		41E4156420AE6FBF00FDE449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E4156220AE6FBF00FDE449 /* Main.storyboard */; };
 		41E4156620AE6FBF00FDE449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41E4156520AE6FBF00FDE449 /* Assets.xcassets */; };
 		41E4156920AE6FBF00FDE449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E4156720AE6FBF00FDE449 /* LaunchScreen.storyboard */; };
+		41E4157220AE76BA00FDE449 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E4157120AE76BA00FDE449 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		41E4156520AE6FBF00FDE449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41E4156820AE6FBF00FDE449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41E4156A20AE6FBF00FDE449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E4157120AE76BA00FDE449 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41E4157220AE76BA00FDE449 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				41E4155D20AE6FBF00FDE449 /* Camera */,
 				41E4155C20AE6FBF00FDE449 /* Products */,
+				41E4157020AE76BA00FDE449 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				41E4156A20AE6FBF00FDE449 /* Info.plist */,
 			);
 			path = Camera;
+			sourceTree = "<group>";
+		};
+		41E4157020AE76BA00FDE449 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E4157120AE76BA00FDE449 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX8Z32V8FK;
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QX8Z32V8FK;
 				INFOPLIST_FILE = Camera/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
